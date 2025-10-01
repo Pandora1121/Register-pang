@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background : linear-gradient(#255585 ,#b2bdc7);
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: monospace;
+}
+
+
+.container_card {
+    background-color:#FCFDFE;
+    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 60px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2 );
+    width: auto;
+    max-width: 4000px;
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 200%;
+    margin-bottom: 12px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.form-row label {
+    text-align: left;
+    margin-right: 16px;
+    font-weight: bold;
+}
+
+.form-row input {
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+}
+}
+.h1{
+    color: #000000;
+    margin-bottom: 30px;
+    height: 50;
+    display: block;
+}
